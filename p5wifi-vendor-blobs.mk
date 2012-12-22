@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/p5wifi/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/p5wifi/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/p5wifi/proprietary/bin/macloader:system/bin/macloader \
-    vendor/samsung/p5wifi/proprietary/bin/sec_keyboard:system/bin/sec_keyboard \
     vendor/samsung/p5wifi/proprietary/bin/tegrastats:system/bin/tegrastats \
     vendor/samsung/p5wifi/proprietary/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Rx_ControlParams_BLUETOOTH_HEADSET.txt \
     vendor/samsung/p5wifi/proprietary/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt:system/etc/audio/Tx_ControlParams_BLUETOOTH_HEADSET.txt \
@@ -124,6 +123,9 @@ PRODUCT_COPY_FILES := \
     vendor/samsung/p5wifi/proprietary/lib/libsec-ril-apalone.so:system/lib/libsec-ril-apalone.so \
     vendor/samsung/p5wifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/p5wifi/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/samsung/p5wifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/p5wifi/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/p5wifi/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/p5wifi/proprietary/lib/omxplayer.so:system/lib/omxplayer.so \
     vendor/samsung/p5wifi/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/samsung/p5wifi/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
